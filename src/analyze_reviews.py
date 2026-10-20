@@ -8,7 +8,7 @@ ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"dataset"; GRAPHS=ROOT/"graphs"; REPORTS=ROOT/"reports"
 GRAPHS.mkdir(exist_ok=True); REPORTS.mkdir(exist_ok=True)
 source=DATA/"Womens Clothing E-Commerce Reviews.csv"
-if not source.exists(): raise FileNotFoundError(f"Place the Kaggle CSV here: {source}")
+if not source.exists(): raise FileNotFoundError(f"Dataset CSV not found at: {source}. Check that the original CSV is present in the dataset folder.")
 raw=pd.read_csv(source); missing_before=raw.isna().sum()
 data=raw.drop(columns=["Unnamed: 0"],errors="ignore").copy()
 for c in ["Title","Review Text"]: data[c]=data[c].fillna("").astype(str)

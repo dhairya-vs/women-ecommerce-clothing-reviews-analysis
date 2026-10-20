@@ -1,10 +1,7 @@
 # Dataset
 
-Download the Women's E-Commerce Clothing Reviews dataset from Kaggle:
+The original Women's E-Commerce Clothing Reviews dataset is stored in `Womens Clothing E-Commerce Reviews.csv`.
 
-https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews
+Source: [Kaggle dataset page](https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews)
 
-
-[cleaned_womens_clothing_reviews.csv](https://github.com/user-attachments/files/33727882/cleaned_womens_clothing_reviews.csv)
-
-
+Running `python src/analyze_reviews.py` from the repository root creates or refreshes `cleaned_womens_clothing_reviews.csv` in this folder. The cleaned file is generated from the original data using the documented cleaning steps.
