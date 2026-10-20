@@ -4,6 +4,7 @@ Download the Women's E-Commerce Clothing Reviews dataset from Kaggle:
 
 https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews
 
-Place the CSV file in this folder.
 
-The dataset is not committed yet.
+[cleaned_womens_clothing_reviews.csv](https://github.com/user-attachments/files/33727882/cleaned_womens_clothing_reviews.csv)
+
+

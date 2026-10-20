@@ -2,7 +2,4 @@ pandas
 numpy
 matplotlib
 seaborn
-nltk
-wordcloud
-scikit-learn
 jupyter
